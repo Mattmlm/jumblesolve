@@ -28,3 +28,7 @@ output:
 - Reduce number of permutated words
 - Create a more efficient data structure for the dictionary word list (words.txt). Currently it is organized into a dictionary with keys for each letter and lists of the words for each value.
     - Cost/benefits: More overhead time to make the structure, but the optimized data structure only needs to be created once.
+
+#### TODO:
+- Replace jumblesolve.py with jumble_solve2.py
+- Write a more complete prefix_tree function.
