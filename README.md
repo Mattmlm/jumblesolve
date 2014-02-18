@@ -2,3 +2,26 @@ jumblesolve
 ===========
 
 Using Python, solve the puzzle Jumble. http://en.wikipedia.org/wiki/Jumble
+
+### To Run Jumble solve
+
+Download jumble_solve2.py and words.txt.
+
+#### Run the program in the terminal:
+
+    python jumble_solve2.py word
+
+#### For example:
+input:
+
+    python jumble_solve2.py dog
+
+output:
+    
+    Length of original permutation is: 15
+    ['go', 'god', 'do', 'dog', 'od']
+
+#### Further potential optimizations:
+- Reduce number of permutated words
+- Create a more efficient data structure for the dictionary word list (words.txt). Currently it is organized into a dictionary with keys for each letter and lists of the words for each value.
+    - Cost/benefits: More overhead time to make the structure, but the optimized data structure only needs to be created once.
